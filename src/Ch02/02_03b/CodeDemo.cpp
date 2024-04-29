@@ -3,10 +3,16 @@
 // Using Variables, by Eduardo Corpeño 
 
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main(){
-    std::cout << "Hi There!" << std::endl;
-    
-    std::cout << std::endl << std::endl;
+    string name;
+    cout << "Hi There!" << endl;
+    cout << "What is your name? " << flush;
+    cin >> name;
+    cout << "Hello, " << name << "!" << endl;
+
+    cout << std::endl << std::endl;
     return (0);
 }
